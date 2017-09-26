@@ -1,5 +1,5 @@
 module.exports = function(app) {
-    app.dataSources.mysqlLocal.automigrate('Merchant', function(err) {
+    app.dataSources.mainMysql.automigrate('Merchant', function(err) {
       if (err) throw err;
   
       app.models.Merchant.create([{
