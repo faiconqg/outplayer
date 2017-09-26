@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysqlLocal": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "url": "mysql://root:mysqlroot@127.0.0.1/outplayer",
+    "database": "outplayer",
+    "password": "mysqlroot",
+    "name": "mysqlLocal",
+    "user": "root",
+    "connector": "mysql"
   }
 }
