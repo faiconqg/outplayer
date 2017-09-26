@@ -39,7 +39,7 @@
     "dataSource": null
   },
   "Merchant": {
-    "dataSource": "mysqlLocal",
+    "dataSource": "db",
     "public": true
   }
 }
