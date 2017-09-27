@@ -15,7 +15,7 @@
 .idea
 .project
 .strong-pm
-.next/
+.next
 coverage
 node_modules
 npm-debug.log
