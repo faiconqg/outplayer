@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const next = require('next');
 
 const loopback = require('loopback');
@@ -11,13 +13,13 @@ const server = module.exports = loopback();
 
 app.prepare()
 .then(() => {
-  server.get('*', (req, res, monther) => {
-    if (req.url.indexOf("/api") === 0) {
-      return monther();
-    } else {
-      return handle(req, res);
-    }
-  })
+  // server.get('*', (req, res, monther) => {
+  //   if (req.url.indexOf("/api") === 0) {
+  //     return monther();
+  //   } else {
+  //     return handle(req, res);
+  //   }
+  // })
 })
 .catch((ex) => {
   console.error(ex.stack);

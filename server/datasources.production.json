@@ -1,7 +1,0 @@
-{
-  "mainMysql": {
-    "host": "sql.faicon.com",
-    "user": "faicon",
-    "password": "faicon#123"
-  }
-}
